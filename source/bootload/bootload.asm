@@ -7,7 +7,7 @@
 [ORG 0x0000]
 jmp     START
      
-     OEM_ID                db "QUASI-OS"
+     OEM_ID                db "Dummy-OS"
      BytesPerSector        dw 0x0200
      SectorsPerCluster     db 0x01
      ReservedSectors       dw 0x0001
@@ -24,7 +24,7 @@ jmp     START
      Flags                 db 0x00
      Signature             db 0x29
      VolumeID              dd 0xFFFFFFFF
-     VolumeLabel           db "QUASI  BOOT"
+     VolumeLabel           db "Dummy  BOOT"
      SystemID              db "FAT12   "
      
      START:
